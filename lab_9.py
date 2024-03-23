@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Загрузка данных
-dataset = pd.read_csv('Mall_Customers.csv')
+dataset = pd.read_csv('mall_Custom.csv')
 
 X = dataset.iloc[:, [3, 4]].values
 

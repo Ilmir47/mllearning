@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Загрузка данных и разделение на матрицу признаков и зависимую переменную
-dataset = pd.read_csv('Position_Salaries.csv')
+dataset = pd.read_csv('pos_salaries.csv')
 
 X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Загрузка данных и разделение на матрицу признаков и зависимую переменную
-dataset = pd.read_csv('50_Startups.csv')
+dataset = pd.read_csv('start_50.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 4].values
 print("Матрица признаков\n", X[:5])

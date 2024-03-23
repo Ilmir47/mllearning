@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 # Загрузка данных и разделение на матрицу признаков и зависимую переменную
-dataset = pd.read_csv('Data5.csv')
+dataset = pd.read_csv('Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 3].values
 print("Матрица признаков\n", X)
